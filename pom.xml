@@ -14,6 +14,15 @@
     <packaging>pom</packaging>
     <name>Event Manager - Spring Boot - Parent</name>
     <description>The event manager Spring Boot parent pom</description>
+
+    <distributionManagement>
+        <repository>
+            <id>github</id>
+            <name>GitHub OWNER Apache Maven Packages</name>
+            <url>https://maven.pkg.github.com/MagicSoup/java-event-manager-springboot-parent</url>
+        </repository>
+    </distributionManagement>
+
     <properties>
         <!-- global -->
         <java.version>19</java.version>
